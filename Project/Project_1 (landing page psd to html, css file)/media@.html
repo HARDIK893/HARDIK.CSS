@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="STYLE-1.css">
+</head>
+
+  
+<style>
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      display: wrapper;
+
+    }
+
+}
+
+
+
+
+    *{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    background-color: #daac00;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 22px 10px 22px;
+}
+
+.header:hover{
+    background-color: #3f3f3f;
+    
+}
+h1:hover{
+    color: aqua;
+
+}
+
+h2:hover{
+    color: blueviolet;
+
+}
+
+
+.logo{
+    width: 50px;
+    margin-left: 20px;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+    display: flex;
+    margin-left: 40px;
+    gap: 40px;
+    flex-direction: row;
+    font-size: 20px;
+    position: relative;
+    font-family: "poppins";
+}
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+}
+
+    
+.Search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #008cff;
+    height: 51px;
+    border-radius: 5px;
+}
+.Search-input{
+    font-size: large;
+    border-radius: 1px;
+    border: none;
+    
+}
+.Search-icon{
+    width: 51px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+/* <!-- .......Section - 1 ...... --> */
+.main{
+    background-color: #f8cd32;
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    padding: 70px 130px 70px 130px;
+
+}
+.sub1{
+    justify-content: center;
+    /* display: flex;  */
+}
+.main-01{
+    font-size: 70px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    justify-content: center;
+    display: flex;
+}
+.main-02{
+    color: #ffffff;
+    font-family: 400;
+    font-size: 29px;
+    text-align: left;
+    margin-top: 40px;
+    margin: 40px 80px 40px 0px;
+    display: flex;
+}
+
+.input-03{
+    background-color: #008cff;
+    padding: 13px 25px 13px 25px;
+    border-radius: 5px ;
+    border: 1px solid #008cff;
+    color: #ffffff;
+}
+.input-03:hover{
+    box-shadow: 2px 4px 9px rgb(73, 73, 73);
+    touch-action: pinch-zoom;
+}
+.input-04:hover{
+    background-color: #008cff;
+    color: #ffffff;
+    border: none;
+    box-shadow: 2px 4px 9px rgb(73, 73, 73);
+}
+.input-04{
+    background-color: #f8cd32;
+    padding: 13px 25px 13px 25px;
+    color: #ffffff;
+    border-radius: 5px ;
+    border: 1px solid #ffffff;
+    margin-left: 25px;
+}
+
+/* <!-- .......Section - 2 ...... --> */
+
+.Searvice-1{
+    background-color: #ffffff;
+    justify-content: space-around;
+    display: flex;
+    padding: 100px;
+}
+
+.Searvice-02{
+    font-size: 50px;
+    align-items: center;
+    margin: 90px 0px 50px 125px;
+}
+.Searvice-03{
+    font-size: 20px;
+    align-items: center;
+    margin: 50px 40px 30px 125px;
+}
+.Service-002{
+    background-color: #f8cd32;
+    color: #ffffff;
+    margin: 0px 0px 0px 125px;
+    padding: 13px 25px 13px 25px;
+    border: 1px solid #daac00;
+    border-radius: 5px;
+}
+.wrapper{
+    /* background-image: url(Place\ Your\ Image\ Here.svg); */
+    background-color: #f8cd32;
+}
+
+.service-image-6{
+    width: 350px;
+    /* padding: 125px; */
+    
+}
+
+/* <!-- .......Section - 3 ...... --> */
+
+.title{
+    background-color: #f8cd32;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.title-1{
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.pare-1{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    margin: 30px 450px 50px 450px;
+    color: #f0f0f0;
+    text-align: center;
+}
+.main-box{
+    justify-content: space-around;
+    display: flex;
+    padding: 50px 90px 0px 190px;
+    align-items: center;
+    /* gap: 50px; */
+}
+
+.hedding-3{
+    color: #ffffff;
+    font-size: 35px;
+    align-items: center;
+    margin: 20px 30px 10px 30px;
+}
+.pare-2{
+    /* justify-content: space-between; */
+    display: flex;
+    text-align: center;
+    margin: 20px 125px 50px 20px;
+    color: #f0f0f0;
+}
+.box-1{
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* <!-- .......Section - 4 ...... --> */
+
+.Contean{
+    background-color: #ffffff;
+    justify-content: space-around;
+    display: flex;
+    padding: 100px;
+}
+.img-1{
+    width: 350px;
+    
+
+}
+.Contean-01{
+    font-size: 50px;
+    align-items: center;
+    margin: 90px 90px 50px 125px;
+}
+.Contean-02{
+    font-size: 20px;
+    align-items: center;
+    margin: 50px 40px 30px 125px;
+}
+.Contean-03{
+    background-color: #f8cd32;
+    color: #ffffff;
+    margin: 10px 10px 20px 125px;
+    padding: 13px 25px 13px 25px;
+    border: 1px solid #daac00;
+    border-radius: 5px;
+}
+
+/* <!-- .......Section - 5 ...... --> */
+
+.title-A{
+    background-color:#daac00 ;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.title-A1{
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    padding-top: 50px;
+
+}
+.pare-A1{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    margin: 30px 450px 50px 450px;
+    color: #f0f0f0;
+    text-align: center;
+}
+.main-box-A{
+    justify-content: space-around;
+    /* display: flex; */
+    padding: 50px 50px 50px 50px;
+    align-items: center;
+}
+.dolor{
+    color: #ffffff;
+    font-size: 35px;
+    align-items: center;
+    margin: 20px 30px 10px 30px;
+}
+.buy-now{
+     display: flex;
+    text-align: center;
+    margin: 20px 125px 50px 20px;
+    color: #ffffff;
+    background-color: #008cff;
+    padding: 13px 35px 13px 35px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* <!-- .......Section - 6 ...... --> */
+
+
+.team-container{
+    background-color: #ffffff;
+    justify-content: space-around;
+    display: flex;
+    padding: 40px;
+}
+.team-1{
+    margin: 20px;
+    margin-top: 10px;
+    align-items: center;
+    font-size: 50px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.team-pre{
+    font-size: 25px;
+    color: #3f3f3f;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+.team-container{
+    background-color: #ffffff;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+    gap: 70px;
+}
+.team-box{
+    padding: 10px;
+    margin-top: 10px;
+}
+.btd-01{
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.btd-2{
+    margin-bottom: 13px;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btd-1{
+    background-color: #f8cd32;
+    color: #f8cd32;
+    gap: 50px;
+    border-radius: 50px;
+    box-shadow: 0.5px 0.5px 3px black;
+}
+
+/* <!-- .......Section - 7 ...... --> */
+
+.Clients{
+    background-image: url(Group\ 1.png);
+
+    align-items: center;
+    height: 550px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 330px;
+   
+}
+
+
+
+.number{
+    color: #ffffff;
+    font-size: 30px;
+}
+.item-name{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+/* <!-- .......Section - 8 ...... --> */
+
+.Container-team{
+    background-color: hsl(0, 0%, 100%);
+    justify-content: space-around;
+    display: flex;
+    padding: 40px;
+    
+}
+.team-001{
+    margin: 20px;
+    margin-top: 10px;
+    align-items: center;
+    font-size: 50px;
+    color: black;
+
+}z
+.team-pre-1{
+    font-size: 25px;
+    color: #3f3f3f;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+.Container-team{
+    background-color: #ffffff;
+    justify-content: center;
+    flex-direction:column;
+    display: flex;
+    text-align: center;
+    gap: 70px;
+    align-items: center;
+}
+.team-box-A1{
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.pare-AA1{
+    padding: 10px;
+    font-size: 20px;
+}
+.date{
+    margin-bottom: 13px;
+    font-size: 17px;
+    color: rgb(45, 191, 248);
+}
+.pre-A2{
+    font-size: 20px;
+    /* margin-left: 300px;
+    margin-right: 300px; */
+}
+.more{
+    color: rgb(45, 191, 248);
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+/* <!-- .......Section - 9 ...... --> */
+
+.Footer{
+    background-color: #343434;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 100px 0px;
+    position: relative;
+}
+/* .title-Hera{
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400; 
+ 
+} */
+.title-B1{
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+    justify-content: end;
+    align-items: end;
+    font-family: "Poppins";
+    padding: 10px;
+}
+.title-A1{
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    justify-content: end;
+}
+.Footer >.About .Services{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #ffffff;
+}
+.About-1 {
+    color: #ffffff;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.Services-1{
+    color: #ffffff;
+    font-size: 35px;
+    padding: 40px;
+}
+.Footer ul{
+    margin-top: 25px;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 23px;
+}
+.telegram-icon-2{
+    width: 430px;
+    height: 70px;
+    background-color: #daac00;
+    position: relative;
+}
+.telegram-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 144px;
+    height: 70px;
+    background-color: #00bec9;
+    position: absolute;
+    right: 0;
+}
+.Media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+    text-align: end;
+    margin-top: 10px;
+}
+</style>
+<link
+rel="stylesheet"
+data-purpose="Layout StyleSheet"
+title="Web Awesome"
+href="/css/app-wa-fba26eda6a3fd6b4d0ce0def1e2ba1d7.css?vsn=d"
+>
+
+<link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
+>
+
+<link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
+>
+
+<link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css"
+>
+
+<link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css"
+>
+
+<link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
+>
+
+<body>
+    <!-- ....... Headear ...... -->
+    <div class="header">
+        <div class="logo">
+
+            <img src="Vector Smart Object (Double Click to Edit) .png" alt="">
+        </div>
+
+        <ul>
+            <li class="h1"><a href="">Home</a></li>
+            <li class="h2"><a href="">About </a></li>
+            <li class="h1"><a href="">Service</a></li>
+            <li class="h2"><a href="">Contact</a></li>
+        </ul>
+        <div class="Search">
+
+            <input type="text" placeholder="Search" class="Search-input">
+
+            <div class="Search-icon">
+                <i class="fa-regular fa-magnifying-glass"></i>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- .......Section - 1 ...... -->
+    <div class="main">
+        <div class="sub1">
+            <h1 class="main-01">
+                First l wanted to be a veterinarian
+            </h1>
+            <p class="main-02">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas praesentium esse ipsa nesciunt possimus
+                magnam eaque expedita, deleniti laborum ratione fuga dolorum placeat a ea.
+            </p>
+
+            <div class="Contect">
+                <input type="submit" value="Contact us" class="input-03">
+                <input type="submit" value="Our Service" class="input-04">
+            </div>
+        </div>
+
+        <div class="sub-2">
+            <img src="Place Your Image Here (Double Click to Edit).png" alt="" class="sub-02">
+        </div>
+    </div>
+
+    <!-- .......Section - 2 ...... -->
+
+    <div class="Searvice-1">
+        <div class="Searvice-01">
+            <h1 class="Searvice-02">
+                As a veterinarian and lover of animals.
+            </h1>
+            <p class="Searvice-03">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magnam nihil blanditiis, ipsa quisquam at!
+            </p>
+            <div class="Sercive-image-2"></div>
+            <div class="Service-001">
+                <input type="submit" value="Our Searvice" class="Service-002">
+            </div>
+        </div>
+        <div class="Service-image-3">
+            <div class="service-image-5">
+                <div class="wrapper">
+
+                    <img src="Place Your Image Here.png" alt="" class="service-image-6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- .......Section - 3 ...... -->
+
+    <div class="title">
+        <div class="main-title">
+            <h1 class="title-1">Title hera</h1>
+            <p class="pare-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere doloremque deserunt velit
+                tenetur?</p>
+        </div>
+        <div class="main-box">
+            <div class="box-1">
+
+                <img src="Place Your Image Here (1).png" alt="" width="250px">
+                <h3 class="hedding-3">Veterinarian</h3>
+                <p class="pare-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, incidunt.</p>
+            </div>
+            <div class="box-1">
+                <img src="Place Your Image Here (3).png" alt="" width="250px">
+                <h3 class="hedding-3">Veterinarian</h3>
+                <p class="pare-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, incidunt.</p>
+            </div>
+            <div class="box-1">
+                <img src="Place Your Image Here (4).png" alt="" width="250px">
+                <h3 class="hedding-3">Veterinarian</h3>
+                <p class="pare-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, incidunt.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- .......Section - 4 ...... -->
+
+    <div class="Contean">
+        <div class="img-Contean">
+            <img src="Place Your Image Here (2).png" alt="" class="img-1">
+        </div>
+
+        <div class="Contean-1">
+            <h1 class="Contean-01">
+                As a Veterinarian and lover of animals.
+            </h1>
+            <p class="Contean-02">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta praesentium illum dolorum quaerat eius
+                inventore.
+            </p>
+            <div class="butten-1">
+                <input type="submit" value="Our Service" class="Contean-03">
+            </div>
+        </div>
+    </div>
+
+    <!-- .......Section - 5 ...... -->
+    <div class="title-A">
+        <div class="main-title-A">
+            <h1 class="title-A1">Title hera</h1>
+            <p class="pare-A1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed at perspiciatis
+                exercitationem et.</p>
+        </div>
+        <div class="main-box-A">
+            <img src="Place Your Image Here (17).png" alt="" width="250px">
+            <h3 class="dolor"><strike>$50</strike> $30</h3>
+            <input type="submit" value="Buy Now" class="buy-now">
+        </div>
+        <div class="main-box-A">
+            <img src="Place Your Image Here (18).png" alt="" width="250px">
+            <h3 class="dolor"><strike>$50</strike> $30</h3>
+            <input type="submit" value="Buy Now" class="buy-now">
+        </div>
+        <div class="main-box-A">
+            <img src="Place Your Image Here (19).png" alt="" width="250px">
+            <h3 class="dolor"><strike>$50</strike> $30</h3>
+            <input type="submit" value="Buy Now" class="buy-now">
+        </div>
+    </div>
+
+    <!-- .......Section - 6 ...... -->
+
+    <div class="team-container">
+        <div class="team-title">
+            <h1 class="team-1">The Vetcare Team</h1>
+            <p class="team-pre">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eos laboriosam
+                exercitationem.</p>
+        </div>
+    </div>
+    <div class="team-container">
+        <div class="team-box">
+            <img src="Place Your Image Here (8).png" alt="" width="250px">
+            <h3 class="btd-01">Jennifer Mullen</h3>
+            <p class="btd-2">VEtERINARY</p>
+            <a href="https://www.facebook.com/"><img src="Facebook.png" alt="" class="btd-1"></a>
+            <a href="https://www.instagram.com/"><img src="Instagram.png" alt="" class="btd-1"></a>
+            <a href="https://twitter.com/i/flow/login"> <img src="Twitter.png" alt="" class="btd-1"></a>
+            <a href="https://web.whatsapp.com/"><img src="WhatsApp.png" alt="" class="btd-1"></a>
+
+        </div>
+        <div class="team-box">
+            <img src="Place Your Image Here (9).png" alt="" width="250px">
+            <h3 class="btd-01">Jennifer Mullen</h3>
+            <p class="btd-2">VEtERINARY</p>
+            <a href="https://www.facebook.com/"><img src="Facebook.png" alt="" class="btd-1"></a>
+            <a href="https://www.instagram.com/"><img src="Instagram.png" alt="" class="btd-1"></a>
+            <a href="https://twitter.com/i/flow/login"> <img src="Twitter.png" alt="" class="btd-1"></a>
+            <a href="https://web.whatsapp.com/"><img src="WhatsApp.png" alt="" class="btd-1"></a>
+
+        </div>
+        <div class="team-box">
+            <img src="Place Your Image Here (10).png" alt="" width="250px">
+            <h3 class="btd-01">Jennifer Mullen</h3>
+            <p class="btd-2">VEtERINARY</p>
+            <a href="https://www.facebook.com/"><img src="Facebook.png" alt="" class="btd-1"></a>
+            <a href="https://www.instagram.com/"><img src="Instagram.png" alt="" class="btd-1"></a>
+            <a href="https://twitter.com/i/flow/login"> <img src="Twitter.png" alt="" class="btd-1"></a>
+            <a href="https://web.whatsapp.com/"><img src="WhatsApp.png" alt="" class="btd-1"></a>
+            
+           
+            
+
+        </div>
+    </div>
+
+    <!-- .......Section - 7 ...... -->
+
+    <div class="Clients">
+    
+        <div class="Clients-item">
+            <img src="Icon.png" alt="">
+            <p class="number">+34793</p>
+            <p class="item-name">Happy Clients</p>
+        </div>
+        <div class="Clients-item">
+            <img src="Icon (2).png" alt="">
+            <p class="number">+34793</p>
+            <p class="item-name">Happy Clients</p>
+        </div>
+        <div class="Clients-item">
+            <img src="Icon (3).png" alt="">
+            <p class="number">+34793</p>
+            <p class="item-name">Happy Clients</p>
+        </div>
+    </div>
+
+    <!-- .......Section - 8 ...... -->
+
+    <div class="Container-team">
+        <div class="team-title-1">
+            <h1 class="team-001">Recent Posts</h1>
+            <p class="team-pre-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, animi?</p>
+        </div>
+    </div>
+    <div class="Container-team">
+        <div class="team-box-A1">
+            <div class="team-box-1">
+                <img src="Place Your Image Here (12).png" alt="" width="200px">
+                <p class="pare-AA1">As a veterinarian and lover of animals</p>
+                <p class="date">FEBRUARY 09.2022</p>
+                <p class="pre-A2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore porro sequi earum
+                    nobis quos?</p>
+                <a href="" class="more"> <b>Read More +</b> </a>
+
+            </div>
+            <div class="team-box-1">
+                <img src="Place Your Image Here (13).png" alt="" width="200px">
+                <p class="pare-AA1">As a veterinarian and lover of animals</p>
+                <p class="date">FEBRUARY 09.2022</p>
+                <p class="pre-A2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore porro sequi earum
+                    nobis quos?</p>
+                <a href="" class="more"> <b>Read More +</b> </a>
+
+            </div>
+            <div class="team-box-1">
+                <img src="Place Your Image Here (14).png" alt="" width="200px">
+                <p class="pare-AA1">As a veterinarian and lover of animals</p>
+                <p class="date">FEBRUARY 09.2022</p>
+                <p class="pre-A2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore porro sequi earum
+                    nobis quos?</p>
+                <a href="" class="more"> <b>Read More +</b> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- /* .......Section - 9 ...... */ -->
+
+    <div class="Footer">
+        <div class="About">
+            <div>
+                <h2 class="About-1">About</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>History</li>
+                    <li>Our Team</li>
+                    <li>Brand Guidelines</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+        <div class="Services">
+            <div>
+                <h2 class="Services-1">Services</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>How to Order</li>
+                    <li>Our Projuct</li>
+                    <li>Order Status</li>
+                    <li>Promo</li>
+                    <li>Payment Method</li>
+                </ul>
+            </div>
+        </div>
+        <div class="title-Hera">
+
+            <div class="title-AB2">
+                <p class="title-A1">Title Here</p>
+                <p class="title-B1">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            
+            <div class="telegram-icon-2"> 
+                <!-- <input type="text" class="telegram"> -->
+                <div class="telegram-icon">
+                    <img src="icon (1).png">
+                </div>
+            </div>
+           
+            <div class="Media">
+                <img src="Facebook.png" alt="insta logo" class="media-1">
+                <img src="Instagram.png" alt="FD logo" class="media-1">
+                <img src="WhatsApp.png" alt="twitter logo" class="media-1">
+                <img src="Twitter.png" alt="WP logo" class="media-1">
+            </div>
+        </div>
+
+    </div>
+   
+</body>
+
+</html>
